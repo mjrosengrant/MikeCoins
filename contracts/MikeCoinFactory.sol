@@ -1,4 +1,4 @@
 import "./HumanStandardTokenFactory.sol";
-pragma solidity ^0.4.13;
+pragma solidity ^0.4.8;
 
 contract MikeCoinFactory is HumanStandardTokenFactory {}
