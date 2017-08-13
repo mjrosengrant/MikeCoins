@@ -1,5 +1,5 @@
 const HumanStandardTokenFactory =
-  artifacts.require(`./HumanStandardTokenFactory.sol`)
+  artifacts.require(`./ERC20/HumanStandardTokenFactory.sol`)
 
 module.exports = (deployer) => {
   deployer.deploy(HumanStandardTokenFactory)
