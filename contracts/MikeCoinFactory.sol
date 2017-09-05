@@ -52,7 +52,6 @@ contract MikeCoinFactory {
     }
 
     function createMikeCoin(uint256 _initialAmount, string _name, uint8 _decimals, string _symbol) returns (address) {
-
         MikeCoin newToken = (new MikeCoin(_initialAmount, _name, _decimals, _symbol));
         created[msg.sender].push(address(newToken));
         isMikeCoin[address(newToken)] = true;
